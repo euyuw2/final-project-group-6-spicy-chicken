@@ -60,3 +60,27 @@ crossroads. Usually, RSUs provide short range communication based on IEEE
 devices in order to provide communication within the infrastructural 
 network [1]. 
 ref: Self-managed and Blockchain-based Vehicular Ad-hoc Networks
+
+Blockchain: 
+-----------
+A blockchain consists of a technically unlimited number of blocks which are 
+chained together in a chronological order. 
+ref: Self-managed and Blockchain-based Vehicular Ad-hoc Networks
+
+Transactions:
+-------------
+Each block consists of transactions which are the actual data to be stored in 
+the chain.
+ref: Self-managed and Blockchain-based Vehicular Ad-hoc Networks
+
+Mining: 
+-------
+During the miningprocess, miners collect valid transactions, compute a 
+proof-of-work and the result is a new block which can be added to the chain. 
+Each block depends on its predecessor block and therefore tampering and 
+manipulating a block is quite difficult and requires an infeasible 
+recalculation of all successor blocks. The mining process is used to establish 
+a consensus of all participants of the network on a current state which will 
+be used as ground truth 
+ref: Self-managed and Blockchain-based Vehicular Ad-hoc Networks
+
