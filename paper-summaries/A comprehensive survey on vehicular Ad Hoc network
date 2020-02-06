@@ -108,7 +108,42 @@ RSU: Roadside Unit
 -------------------------
 Communication between vehicles and RSU/infrastructure are 3 types:
 1. In-Vehicle-domain:
-    
+  * OBU and 1+ AUs. OBU simply provides the communication link to AU.
+2. Ad hoc domain:
+  * Vehicles with OBUs and a RSU along the roadside.
+  a. 
+    * allows for fully decentralized and distributed communication between
+      vehicles.
+    * either V2V if route available, else multi-hop to destination
+    * ITS (Intervehicle communication): popular in US, EU and Japan
+  b.
+    * Vehicle communicates with RSU to increase range, by sending or
+      forwarding data. 
+    * allows for V2I (vehicle to infrastructure) communication
+3. Infrastructure domain:
+   * RSU can connect to infrastructural networks or the Internet.
+   * AUs registered can communicate with Internet based host
+   * OBUs can communicate with other hosts for non-safety applications
+     using cellular radio networks (GSM, GPRS, UMTS, HSDPA, WiMax and 4G)
 
+4. Wireless access tech in VANET:
+---------------------------------
+* TODO: [Expand this section as needed)
+* Many wireless access tech available:
+    1. Cellular Systems (2/2.5/2.75/3G)
+    2. WLAN/WiFi
+    3. WiMax
+    4. DSRC/WAVE
+    5. Combined:
+        * CALM M5: Continuous air interface for medium and long range.
+        * incorporates other wireless tech.
 
+5. VANET Characteristics:
+-------------------------
+* Has unique characteristics that can be leveraged 
+1. Predictive Mobility:
+    * Different than other mobile networks, because nodes do not move in
+      a random way. Because vehicles follow road topology and layout.
+      => very Predictive mobility
+2. Providing safe driving
 
