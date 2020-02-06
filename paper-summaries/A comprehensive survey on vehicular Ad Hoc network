@@ -145,5 +145,27 @@ Communication between vehicles and RSU/infrastructure are 3 types:
     * Different than other mobile networks, because nodes do not move in
       a random way. Because vehicles follow road topology and layout.
       => very Predictive mobility
-2. Providing safe driving
+2. Providing safe driving:
+    * Can provide drivers travelling in the same directions with info:
+        * warning messages about accidents
+        * need for sudden, hard breaking
+        * apprise the driver of broader picture of the road aheah.
+        * traffic flow, weather
+        * POI (point of interest) info; like malls, gas station, food
+3. No power constraints:
+    * Power is provided by the vehicle, so not limited by power consumption.
+4. Variable network density:
+    * Network density depends on traffic flow, therefore care must be taken.
+5. Rapid changes in network topology:
+    * Lifetime link between nodes/vehicles is affected by direction of travel.
+    * Lifetime link between Vehicles in opposite direction is short.
+    * Expect small diameter in link connectivity.
+6. Large scale network:
+    * Urban areas have dense networks vs rural areas.
+7. High Computational ability:
+    * Can do local computation before transmission.
+    * ex: large set of sensors, big processor, large memory, antennae
+    * Perhaps even ML???
+
+
 
