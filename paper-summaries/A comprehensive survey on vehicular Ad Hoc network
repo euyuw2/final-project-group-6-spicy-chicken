@@ -151,5 +151,83 @@ Communication between vehicles and RSU/infrastructure are 3 types:
     * ex: large set of sensors, big processor, large memory, antennae
     * Perhaps even ML???
 
+6. Challenges and requirements in VANET:
+----------------------------------------
+* Signal fading:
+    * Objects in between endpoints can affect the efficiency.
+    * ex: obstacles on road, buildings in urban areas
+* Bandwidth Limitations:
+    * Since no central coordinator, there's a high chance of congestion
+    * Need to use bandwidth wisely.
+    * If vehicle no way to transmist, then wait and resend, instead of 
+        repeated retries.
+* Connectivity:
+    * Changing topology will lead to frequent fragmentation in networks.
+    * Could increase transmission power, but can lead to degradation
+* Small effective diameter:
+    * No way to maintain global topology of the network.
+* Security and Privacy:
+    * In mesh type networks, relay-er will know sender and reciepient.
+* Routing Protocol:
+    * Given high mobility of nodes, and rapid changing topology, we need
+        efficient routing protocol.
+    * Goal 1: Improve percentage of packet delivery
+    * Goal 2: Reduce interference caused by high buildings
+    * Goal 3: Consider how to scale
+    * Goal 4: Shortest deliver time for Emergency situations
+
+7. VANET Applications:
+----------------------
+* Fall into 2 categories; Comfort/Entertainment, and Safety applications.
+* Safety messages are disemminated by 2 ways: 
+    * Periodic: Typically for frequent updates
+    * Event-driven: Typically for emergency
+
+1. Intersection collision avoidance:
+    * Warning about violating traffic signal
+    * Warning about violating stop sign
+    * Left turn assistant
+    * Stop sign movement assitant
+    * Intersection collision warning
+    * Warning about blind merge detection
+    * Pedestrian crossing information
+2. Public safety:
+    * Approaching emergency vehicle
+    * Emergency vehicle preemption
+    * SOS Services
+    * Post crash warning
+3. Sign extension:
+    * In-vehicle signage:
+    * Curve speed warning
+    * Low Parking strucutre and bridge Warning:
+    * Low bridge warning
+    * Wrong way driver warning
+    * Work zone warning
+    * In-vehicle Amber alert
+4. Vehicle diagnostics and maintainence: These apps use I2V or V2I 
+    * Safety Recall notice
+    * Just-in-time repair
+5. Information from other vehicles:
+    * Cooperative forward collision warning
+    * Vehicle-based road condition warning
+    * Emergency electronic brake lights (EEBL)
+        * Warn other vehicles on road if there's a need for hard or sudden
+            breaking
+    * Lane change warning
+    * Blind spot warning
+    * Highway merge assistant
+    * Visibility enchancer
+    * Cooperative collision warning
+    * Cooperative adaptive cruise control
+    * Road condition warning
+    * Pre-crash sensing
+    * Highway/rail collision warning
+    * Vehicle-to-vehicle road feature notification
+    * Cooperative vehicle-highway automation system
+
+8. VANET simulation:
+--------------------
+* VANET is a subclass of MANET, where each vehicle is a node.
+[TODO: fill this in as needed]
 
 
