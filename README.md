@@ -1,6 +1,4 @@
 # spicy-chicken
-Don't fuck with this chicken!
-
 
                                                                          .      
                                    #                                     .    , 
@@ -44,3 +42,4 @@ Don't fuck with this chicken!
 
 
 
+Don't fuck with this chicken!
