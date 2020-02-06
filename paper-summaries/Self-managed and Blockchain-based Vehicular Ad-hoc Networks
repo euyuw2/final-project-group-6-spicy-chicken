@@ -1,0 +1,35 @@
+================================================================================
+Self-managed and Blockchain-based Vehicular Ad-hoc Networks
+ref: https://dl.acm.org/doi/pdf/10.1145/2968219.2971409?casa_token=NQUGZvEMub0AAAAA:HI99JyW6mGEaEuFauKL5vHFo0XNiDpbwvR77adkDUzqxvnoTiwfT-LV3q4FJmNGIsqXv1qeeV4lLiA
+================================================================================
+
+Intro:
+------
+* Most common VANETs have been government controlled.
+* Need for decentralized and non-government surveillant services.
+* Ethereum's contract system can provide a framework for self-organized
+    and self-managed network for distributed applications built on
+    blockchain technology.
+
+VANETs:
+--------
+* Simple description of VANETs. Read "_Terms" post in github
+
+Ethereum:
+---------
+* Ethereum uses a "Turing-complete programming language" for its contracts.
+* Contracts run on the blockchain and consist of:
+    * program code, storage, and an account balance.
+    * created by posting them to the blockchain.
+    * run when it receives a message from a user or triggered by another 
+        contract.
+    * can also receive or send money to other contracts or users.
+    * can use the storage 
+* Execution of contract code is "...part of the block validation algorithm",
+    so if a transaction is added, the code execution spawned by that    
+    transaction is executed by all nodes.
+
+
+Self-Managed VANETs:
+--------------------
+
