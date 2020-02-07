@@ -1,0 +1,68 @@
+===============================================================================
+Applications of VANETs: Present & Future 
+ref: https://pdfs.semanticscholar.org/dcfb/cca95af1b0f8a308f7d028f262785a479fa6.pdf
+===============================================================================
+
+Terms:
+------
+
+VSC: Vehicular Safety Consortium
+CAMP: Crash-Avoidance Metrics Partnership
+
+1. Intro:
+---------
+* Since 43000 deaths/year = 2.7 million injured = $230billion social cost,
+    need to address it.
+* DSRC and IEEE 802.11p WAVE approved for MAC an PHY layers
+
+2. Characteristics of Vanets:
+-----------------------------
+* a. Highly dynamic topology:
+    * High speed of vehicles, and multiple paths to endpoints
+* b. Frequent disconnect network:
+    * Variable speed of vehicles also means frequent disconnects, esp from
+        Road Side Units (RSUs)
+* c. Mobility modeling and Prediction:
+    * Because of roadmap, we can somewhat predict vehicles for efficient
+        network design.
+* d. Communication Environment:
+    * Accounting for terrain, architecture, highways, climate, urban/city
+        factors that can disrupt communications
+* e. Hard Delay Constraints:
+    * Account for emergency signals that have a priority and deadline.
+* f. Interaction with onboard sensors:
+    * Sensors can give velocity, direction which can be used in link and 
+        routing as informtion for the protocols built on top of it.
+* g. Unlimited battery power and storage:
+    * Unlike other mobile computing implementations, since VANETs are in a car
+        they can assume a stead power supply and storage.
+
+3. Applications of VANETs:
+--------------------------
+* RSU can be treated as an access point or router or even a buffer.
+* a. Safety oriented
+    * I.   Real-time traffic
+    * II.  Co-operative Message tranfer
+    * III. Post Crash Notification
+    * IV.  Road Hazard Control Notification
+    * V.   Cooperative Collision Warning
+    * VI.  Traffic Vigilance
+* b. Commercial oriented
+    * I.   Remote Vehicle Personalization/Diagnostics
+    * II.  Internet Access.
+* c. Convenience oriented
+    * I.   Route Diversions:
+            * Route planning
+    * II.  Electronic toll collection
+    * III. Parking Availability
+    * IV.  Active Prediction
+
+* d. Productive oriented
+    * I.   Environmental Benefits:
+        * AERIS generates environmental relevant data to make better future
+            choices.
+    * II.  Time Utilization:
+        * Use internet
+    * III. Fuel Saving:
+        * Toll can waste 3% of fuel by stopping for 2-5 minutes.
+
