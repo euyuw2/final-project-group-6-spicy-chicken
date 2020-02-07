@@ -32,4 +32,23 @@ Ethereum:
 
 Self-Managed VANETs:
 --------------------
+* RSUs are not only for communication relay station, they also run the
+    applications deployed to Ethereum blockchain.
+* Users can subscribe to certain provided applications by the RSU.
+* (See Fig. 2 for subscription process)
+* Each network participant has an Ethereum address (hash of the public key)
+* Each message/transaction that uses Ethereum application requires
+    Ethereum-gas, an internal pricing for running a transaction or contract.
+* These funds would pay for required infrastructure costs.
+* Applications enforce rules or provide services, thus regulates itself.
+* Taxes collected would incentivize people to provide for the RSUs, since 
+    mining costs 
 
+Conclusion:
+-----------
+* Ethereum's smart contract system allows to run applications on the 
+    blockchain. 
+* This allows for self-managed and decentralized network operation.
+* The paper proposes some mandatory applications, like traffic regulation,
+    vehicle tax and insurance, as well as optional applications which can 
+     be subscribed to.
