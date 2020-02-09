@@ -1,0 +1,31 @@
+\section{Introduction}
+
+Historically, networks have relied on a client-server model, where both end points
+were geographically fixed, and centralized. As the need for fault tolerant services
+grew, the paradigm of decentralization took a greater hold. Yet even in this, the nature of the network topology was fairly static.The way distributed systems and networking are employed is changing rapidly with ever advancing and adoption of novel technologies. Given the growth of ubiquitous computing, increasing power of small form factor and proliferation of faster networking devices everywhere, there are new frontiers that need novel solutions. 
+
+In the recent decades, with computing devices becoming smaller, powerful and increasingly more mobile, this presumption does not hold. There is a need to study and consider how distributed systems will operate in a highly dynamic topology with little implicit trust in the network, and yet deliver a reliable and secure method to transmit data.
+
+The field of Mobile ad hoc network (MANET) studies these concerns, and a subset of which, and the focus of this paper is Vehicular Ad hoc Network (VANET), its applications. VANETs are essentially decentralized at their core because they establish a local peer to peer links to communicate. This feature makes VANETs critically useful for various types of communications. These can be classified into two; primarily for safety applications and secondarily for entertainment/comfort applications. The domain of safety includes conveying information about accident detection and avoidance, warnings about upstream traffic events, sign extension and even critical vehicle information. \cite{kumar2013applications}
+
+The uses of entertainment include being able to run trivial applications for chatting, video and other services targeted toward comfort in travel.
+\cite{al2014comprehensive}. 
+
+Historically, the most common VANET-type networks have been provided by the government (Self-managed paper). This presents many problems, but the centralization of such systems can cause single point of failures, and highly prized targets for attackers, and given the span of control, raises concerns about government surveillance on the users. \cite{leiding2016self}
+
+Therefore, a decentralized approach is warranted for further study. Though this
+is not without its own challenges. There's an imminent need to address security
+concerns of  Isolate safety related Application Units (AUs) and its data from other non-critical AUs. Furthermore, we'd need to validate 
+
+We'd need to authenticate the validity and origin of the data.
+Furthermore, given the dynamic nature of VANET topology, care needs to be taken
+when routing packets so as to not expose any identifiable sender and recipient
+information.
+
+This problem makes it very amenable to utilizing block-chain technologies to
+address these problems of Vehicle to Infrastructure (V2I) and Vehicle to vehicle
+(V2V) communication in ensuring provenance of data while offering security and
+reliability in a decentralized manner.\cite{blockchain2019}
+
+We plan on detailing the safety concerns and best practice guides, and implementing 2 applications units (AUs) as proof-of-concept that will work on On-Board Units (OBUs), provide a safety oriented service to Roadside Units(RSUs) that will persist data on a commodity block chain and future venues for further research.
+\cite{leiding2016self}\cite{jiang2018blockchain}
