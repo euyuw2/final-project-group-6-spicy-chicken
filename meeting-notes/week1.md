@@ -9,3 +9,7 @@
     * Resolve exactly what to work on and what to omit
 * Research what software and libraries are needed
 * Setup development/build environment
+
+## Commits made:
+* Numerous commits were made submitting our summaries and papers we've used.
+* Also commited our current Paper 
