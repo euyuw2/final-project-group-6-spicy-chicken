@@ -41,3 +41,5 @@
 
 ### Don't fuck with this chicken!
 [Trello Board](https://trello.com/b/ukfAJEwb/spicy-chicken)
+[Our Wiki](https://github.com/ECS-251-W2020/final-project-group-6-spicy-chicken/wiki)
+
