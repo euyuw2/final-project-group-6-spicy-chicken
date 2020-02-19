@@ -4,7 +4,8 @@
 * Met with team to discuss and divide the tasks.
 * Research on the smart contract and solidity, add a sample smart contract.
 * Research on the React Native for mobile application.  
-  * Done: set up react environment and run a demo webapp in remote server  
+  * Done: set up react environment and run a demo webapp in remote server
+  * Done: deployed a demo app on iOS device. 
 * Created a Development environment for project  
 * Implement the base working ethereum as blockchain.
 * Adding more documentation/guides about project to wiki
