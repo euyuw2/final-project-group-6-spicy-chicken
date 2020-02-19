@@ -1,7 +1,7 @@
 version: "3"
 services:
-  spck-bootnode:
-    hostname: spck-bootnode
+  bootnode:
+    hostname: bootnode
     environment:
       - nodekeyhex=08f0e1dee5c1b4645f3331a566009e41a4514b6cd28656d63d0449ecf812812b #Needs to be fix, so that the miners know the resulting enode id
     build:
@@ -12,10 +12,10 @@ services:
       chainnet:
         ipv4_address: 172.25.0.101 # The miners need to know the IP address later on
 
-  spck-dev-miner-1:
-    hostname: spck-dev-miner-1
+  miner-1:
+    hostname: miner-1
     depends_on:
-      - spck-bootnode
+      - bootnode
     environment:
       - address=0x8cc5a1a0802db41db826c2fcb72423744338dcb0 #derived from the private key which is passed in the args
       - bootnodeId=76a8171707eca17647a47ca99ffd348927dfa60102792ea349a25d5192e61855be83b786e376276a306afcceea4ffd1c9c77e4370b417efc39f328a0d068004c #derived from the nodekeyhex of the bootnode
@@ -32,10 +32,10 @@ services:
       chainnet:
         ipv4_address: 172.25.0.102 # The monitor needs to know this address
 
-  spck-dev-miner-2:
-    hostname: spck-dev-miner-2
+  miner-2:
+    hostname: miner-2
     depends_on:
-      - spck-bootnode
+      - bootnode
     environment:
       - address=0x3590aca93338b0721966a8d0c96ebf2c4c87c544 #derived from the private key which is passed in the args
       - bootnodeId=76a8171707eca17647a47ca99ffd348927dfa60102792ea349a25d5192e61855be83b786e376276a306afcceea4ffd1c9c77e4370b417efc39f328a0d068004c #derived from the nodekeyhex of the bootnode
@@ -52,10 +52,10 @@ services:
       chainnet:
         ipv4_address: 172.25.0.104
 
-  spck-dev-node:
-     hostname: spck-dev-node
+  devnode:
+     hostname: devnode
      depends_on:
-       - spck-dev-miner-2
+       - miner-2
      environment:
        - address=0x3590aca93338b0721966a8d0c96ebf2c4c87c544 #derived from the private key which is passed in the args
        - bootnodeId=76a8171707eca17647a47ca99ffd348927dfa60102792ea349a25d5192e61855be83b786e376276a306afcceea4ffd1c9c77e4370b417efc39f328a0d068004c #derived from the nodekeyhex of the bootnode
